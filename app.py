@@ -33,7 +33,7 @@ work= [
 @app.route('/')
 def index():
  return render_template('home.html',
-         jobs=work, company_name='krakye jt')
+         jobs=work, company_name='KRAKYE OFFICIAL')
   
 @app.route('/api/jobs')
 def list_jobs():
